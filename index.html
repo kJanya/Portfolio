@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--
+        - primary meta tags
+    -->
+
+    <title>Janya Jaiswal</title>
+
+    <meta name="title" content="Janya Jaiswal"/>
+    <meta name="description" content="This is a Developer portfolio website"/>
+
+    <!--
+        - favicon
+    -->
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/png+xml">
+
+    <!--
+        - Icons
+    -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <!--
+        - custom css link
+    -->
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--
+        - custom font link
+    -->
+
+    <link rel="stylesheet" href="FONTS/font.css">
+
+    <!--
+        - preload images
+    -->
+
+
+</head>
+<body class="active">
+
+    <!--
+        - preloading
+    -->
+
+    <div class="loading" data-loading>
+        <img src="images/loading.svg" width="55" height="55" alt="loading" class="img">
+        <img src="images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+    </div>
+
+    <!--
+        - Header
+    -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo"><img src="images/logo.png" width="90" height="90" alt="Janya Jaiswal"></a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <img src="images/menu.svg" width="30" height="30" alt="menu icon">
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo"><img src="images/logo.png" width="90" height="90" alt="Janya Jaiswal" class="img"></a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <span class="span one"></span>
+                        <span class="span two"></span>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item"><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+                    <li class="navbar-item"><a href="#experiences" data-nav-link class="navbar-link">Experiences</a></li>
+                    <li class="navbar-item"><a href="#about" class="navbar-link" data-nav-link>About Me</a></li>
+                    <li class="navbar-item"><a href="#contact" data-nav-link class="navbar-link">Contact Me</a></li>
+                
+                </ul>
+
+                <p class="navbar-title">My Address</p>
+
+                <address class="navbar-text">
+                    Lucknow, U.P, India
+                </address>
+
+                <p class="navbar-title">Call me at
+                    <a href="tel:9672515106" class="contact-link">+91 9672515106</a>
+                </p>
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--
+        Main
+    -->
+
+        <main class="section home" id="home" aria-label="home">
+                <div class="container">
+                    
+                    <div class="home-content">
+                        <img src="images/img1.jpeg" width="200">
+                        <h1 class="h1 home-title">
+                            <span>Hi! I'm</span> Janya Jaiswal
+                        </h1>
+                    </div>
+                </div>
+        </main>
+
+    <!--
+        Experience
+    -->
+
+    <section class="section experience" id="experiences" aria-label="experiences">
+
+        <div class="container">
+            <div class='txtAnimation'>
+                <h2>My Experience in</h2>
+                <h1 class="heading" data-target-resolver></h1>
+            </div>
+            <div class="cards">
+                <div class="panel active" id="panel-1">
+                    <h3>Front-End Development</h3>
+                </div>
+                <div class="panel " id="panel-2">
+                    <h3>Back-End Development</h3>
+                </div>
+                <div class="panel " id="panel-3">
+                    <h3>Data Structures through C++</h3>
+                </div>
+                
+            </div>
+            <div class="responsive">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="images/front-end development.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Front-End Development</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="images/back-end development.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Back-End Development</h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="images/data_structures.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Data Structures through C++</h2>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!--
+        ABOUT
+    -->
+
+    <section class="section about" id="about" aria-label="About me">
+        <div class="container">
+
+
+            <figure class="about-banner" data-reveal="left">
+
+                    <div class="img-holder has-before">
+                        <img src="images/img2.jpeg" width="300" loading="lazy" alt="my pic" class="img-cover">
+                    </div>
+                    
+                    <img src="images/loading.svg" width="178" height="178" loading="lazy" alt="" class="shape shape-1">
+
+            </figure>
+
+                <div class="about-content">
+                    <h2 class="h2 section-title" data-reveal="right">
+                        About Me
+                    </h2>
+    
+                    <div class="wrapper has-before" data-reveal="right">
+    
+                        <p class="section-text">
+                            Pursuing B-TECH in Computer Science and Engineering from <em class="em">National Institute of Technology, Silchar</em>
+                        </p>
+    
+                        <img src="images/signature.png" width="151" height="92"alt="signature" class="img">
+    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--
+            Contact
+        -->
+
+        <section class="section contact" id="contact">
+                <div class="contact_form">
+                    <h2 class="h2">Contact Me</h2>
+                    <p class="p">Feel Free to contact me any time.</p>
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="contact_info">
+                    <div class="sect1">
+                        <h2 class="h2">Contact Info</h2>
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+91 9672515106">+91 9672515106</a>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="mailto:kjanya19@gmail.com">kjanya19@gmail.com</a>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#">
+                                Lucknow, U.P
+                                India
+                            </a>
+                        </span>
+                    </div>
+                    <div class="sect2">
+                        <div class="social">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+    <!--
+        custom JS link  
+    -->
+
+    <script src="JS/script.js"></script>
+      
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RmlN7m860b4?si=pAFVB1E6A1nD1PNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="display: none;"></iframe>
+
+</body>
+</html>
